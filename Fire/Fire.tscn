@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctck376oobvm1"]
+
+[ext_resource type="Texture2D" uid="uid://bgrovwr706yvg" path="res://Fire/Fire.png" id="1_tw7a5"]
+[ext_resource type="Script" path="res://Fire/fire.gd" id="2_vctyt"]
+
+[node name="Fire" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1_tw7a5")
+script = ExtResource("2_vctyt")
